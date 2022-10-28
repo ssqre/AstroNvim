@@ -136,7 +136,8 @@ astronvim.lsp.on_attach = function(client, bufnr)
   end
 
   if capabilities.referencesProvider then
-    lsp_mappings.n["gr"] = { function() vim.lsp.buf.references() end, desc = "References of current symbol" }
+    -- lsp_mappings.n["gr"] = { function() vim.lsp.buf.references() end, desc = "References of current symbol" }
+    lsp_mappings.n["gr"] = { "<cmd>Trouble lsp_references<cr>", desc = "References of current symbol" }
   end
 
   if capabilities.renameProvider then
