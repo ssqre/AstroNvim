@@ -28,7 +28,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     splitbelow = true, -- Splitting a new window below the current one
     splitright = true, -- Splitting a new window at the right of the current one
     swapfile = false, -- Disable use of swapfile for the buffer
-    tabstop = 2, -- Number of space in a tab
+    tabstop = 8, -- Number of space in a tab
     termguicolors = true, -- Enable 24-bit RGB color in the TUI
     timeoutlen = 300, -- Length of time to wait for a mapped sequence
     undofile = true, -- Enable persistent undo
