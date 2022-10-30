@@ -6,7 +6,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     completeopt = { "menuone", "noselect" }, -- Options for insert mode completion
     copyindent = true, -- Copy the previous indentation on autoindenting
     cursorline = true, -- Highlight the text line of the cursor
-    expandtab = true, -- Enable the use of space in tab
+    expandtab = false, -- Enable the use of space in tab
     fileencoding = "utf-8", -- File content encoding for the buffer
     fillchars = { eob = " " }, -- Disable `~` on nonexistent lines
     history = 100, -- Number of commands to remember in a history table
@@ -19,7 +19,7 @@ astronvim.vim_opts(astronvim.user_plugin_opts("options", {
     pumheight = 10, -- Height of the pop up menu
     relativenumber = true, -- Show relative numberline
     scrolloff = 8, -- Number of lines to keep above and below the cursor
-    shiftwidth = 2, -- Number of space inserted for indentation
+    shiftwidth = 8, -- Number of space inserted for indentation
     showmode = false, -- Disable showing modes in command line
     showtabline = 2, -- always display tabline
     sidescrolloff = 8, -- Number of columns to keep at the sides of the cursor
